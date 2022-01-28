@@ -15,7 +15,7 @@ void loop() {
   int  motionState = digitalRead(pirPin);
   if (motionState == 1) {
         Serial.println("Motion is detected.  Beginning fade loop.");
-        CallSmokin(130);
+        CallSmokin(130); // 130 is about how long it takes for a full cycle of fade in and out
   }
   else {
         Serial.println("Motion is clear.");
