@@ -1,2 +1,5 @@
 /build/*
-*/.vscode/*
+/.vscode/*
+*/c_cpp_properties.json
+*/arduino.json
+
